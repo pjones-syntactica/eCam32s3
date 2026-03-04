@@ -9,7 +9,7 @@ It is intended to be used **alongside** the official ESP32 Arduino core (Espress
 ## Contents
 
 * `variants/eCam32s3/`
-  Board variant files (pin mapping, default buses, LED pin, etc.)
+  Board variant files (pin mapping, default buses, etc.)
 
 * `libraries/`
   Board-specific libraries to simplify use of onboard peripherals (SPI devices, camera helpers, power/control pins, etc.)
