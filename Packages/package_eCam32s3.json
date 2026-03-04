@@ -1,0 +1,45 @@
+{
+  "packages": [
+    {
+      "name": "syntactica",
+      "maintainer": "Syntactica",
+      "websiteURL": "https://github.com/pjones-syntactica/eCam32s3",
+      "email": "support@syntactica.co.uk",
+      "help": {
+        "online": "https://github.com/pjones-syntactica/eCam32s3/issues"
+      },
+      "platforms": [
+        {
+          "name": "aCam32s3",
+          "architecture": "esp32",
+          "version": "0.0.1",
+          "category": "ESP32",
+          "url": "https://github.com/pjones-syntactica/eCam32s3/Packages/esp32s3.zip",
+          "archiveFileName": "esp32s3.zip",
+          "checksum": "SHA-256:<sha256_of_zip>",
+          "size": "<bytes_of_zip>",
+          "boards": [
+            { "name": "eCam32s3" }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "esp32",
+              "name": "esp32-arduino-libs",
+              "version": "idf-release_v5.5-2c211b23-v3"
+            },
+            {
+              "packager": "esp32",
+              "name": "xtensa-esp-elf-gcc",
+              "version": "esp-14.2.0_20251107"
+            },
+            {
+              "packager": "esp32",
+              "name": "esptool_py",
+              "version": "5.2.0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
